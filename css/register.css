@@ -1,0 +1,157 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 84px;
+    border-bottom: 2px solid #b1191b;
+}
+
+.logo img {
+    padding-top: 18px;
+}
+
+.registerarea {
+    margin-top: 20px;
+    height: 522px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+    background: rgb(210, 210, 210);
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #b1191b;
+}
+
+.reg_from {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_from ul li {
+    height: 37px;
+    line-height: 37px;
+    margin: 20px 0;
+}
+
+.reg_from ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.reg_from ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    margin-left: 10px;
+    color: red;
+}
+
+.success {
+    color: rgb(49, 240, 100);
+    margin-left: 10px;
+}
+
+.error_ico,
+.success_ico {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+
+}
+
+.error_ico {
+    background: url(../images/error_ico.png) no-repeat;
+    background-size: 100%;
+}
+
+
+.success_ico {
+    background: url(../images/success_ico.png) no-repeat;
+    background-size: 100%;
+}
+
+.reg_from .safe {
+    padding-left: 170px;
+    margin: 10px 0;
+}
+
+.safe em {
+    padding: 0 12px;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background: #40b83f;
+}
+
+.qiang {
+    background: #f79100;
+}
+
+.agree {
+    padding-left: 100px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: skyblue;
+}
+
+.btn {
+    padding-left: 70px;
+}
+
+.btn button {
+    display: block;
+    height: 43px;
+    line-height: 43px;
+    font-size: 20px;
+    padding: 0 60px;
+    color: white;
+    text-align: center;
+    background: #de1111;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    padding: 0 5px;
+}
+
+.links a:after {
+    content: '|';
+    padding-left: 5px;
+}

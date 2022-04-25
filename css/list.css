@@ -1,0 +1,147 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 30px;
+    left: 175px;
+}
+
+.sk img {
+    width: 40px;
+    height: 40px;
+}
+
+.sk_list {
+    float: left;
+    line-height: 45px;
+}
+
+.sk_list ul {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 20px;
+
+}
+
+.sk_con ul {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+    position: relative;
+}
+
+.sk_con ul li a {
+    display: block;
+    font-size: 16px;
+    line-height: 49px;
+    padding: 0 20px;
+}
+
+.sk_con ul li:last-child:after {
+    font-family: 'icomoon';
+    content: '\ea50';
+    font-size: 15px;
+    position: absolute;
+    top: 16px;
+    left: 90px;
+}
+
+.sk_con a:hover {
+    color: #b1191b;
+}
+
+.sk_container {
+    overflow: hidden;
+}
+
+.sk_hd img {
+    width: 1200px;
+
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li img {
+    width: 288px;
+    height: 458px;
+}
+
+
+.sk_bd ul li:hover {
+    border-color: #b1191b;
+}
+
+.sk_bd ul li a p {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.sk_bd ul li .jiage {
+    padding: 0 10px;
+}
+
+.sk_bd ul li a .jiage h4 {
+    display: inline-block;
+    font-size: 22px;
+    color: #b1191b;
+    margin-right: 10px;
+
+}
+
+.sk_bd ul li a .jiage span {
+    font-size: 14px;
+    color: #a6a8a6;
+    text-decoration: unset;
+}
+
+.sk_bd ul li a>span {
+    text-decoration: underline;
+}
+
+.sk_bd ul li .huo {
+    padding: 10px;
+}
+
+.sk_bd ul li .huo span {
+    font-size: 15px;
+}
+
+.sk_bd ul li .huo .yuank {
+    display: inline-block;
+    width: 140px;
+    height: 18px;
+    border: 1px solid #b1191b;
+    border-radius: 9px;
+
+}
+
+.sk_bd ul li h3 {
+    display: block;
+    font-size: 22px;
+    color: white;
+    width: 100%;
+    height: 50px;
+    background: red;
+}
